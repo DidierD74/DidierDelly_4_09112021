@@ -97,6 +97,10 @@ a:hover {
 
 /* MES MODIFICATIONS */
 
+.txt-black {
+  color: #000000;
+}
+
 .txt_citation {
   font-size: 18px;
   font-weight: bold;
@@ -804,21 +808,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #000000;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: black;
   color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
-  color: #ffffff !important;
+  background: rgba(0, 0, 0, 0.068) !important;
+  color: rgba(0, 0, 0, 0.918) !important;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.178);
 }
 
 .ltc-white {
