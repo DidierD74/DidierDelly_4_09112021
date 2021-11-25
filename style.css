@@ -95,6 +95,33 @@ a:hover {
   background-size: 280px 280px;
 }
 
+/* MES MODIFICATIONS */
+
+.txt_citation {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.txt_sous_citation {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.txt_title {
+  font-size: 22px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.txt_title2 {
+  font-size: 23px;
+  line-height: 30px;
+  text-transform: initial;
+}
+
+/* FIN DES MODIFICATIONS */
+
 .b-parallax {
   background-attachment: fixed;
 }
