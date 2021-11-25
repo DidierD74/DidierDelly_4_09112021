@@ -544,7 +544,7 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  opacity: 0;
+  opacity: 1;
   z-index: 500;
   transition: all 0.3s ease-in-out;
 }
@@ -562,6 +562,10 @@ a[data-lightbox] {
   position: relative;
   display: block;
   text-align: center;
+}
+
+.fa-chevron-up:before {
+  content: "\f077";
 }
 
 a[data-lightbox]:hover::before {
@@ -847,11 +851,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
