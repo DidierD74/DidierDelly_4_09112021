@@ -574,6 +574,7 @@ a[data-lightbox] {
 
 .fa-chevron-up:before {
   content: "\f077";
+  color: #fff;
 }
 
 a[data-lightbox]:hover::before {
