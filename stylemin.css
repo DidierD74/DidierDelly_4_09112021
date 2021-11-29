@@ -81,10 +81,11 @@ a:hover {
   width: 270px;
   height: 270px;
 }
-
 .texture-paper::before {
+  opacity: 95%;
   background: url(img/texture-paper.png);
   background-size: 280px 280px;
+  filter: contrast(200%);
 }
 .txt-black {
   color: #000;
@@ -612,7 +613,7 @@ a {
   margin: auto auto auto auto;
 }
 p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .tight-width-whitespace {
   max-width: 600px;
@@ -673,7 +674,7 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(105, 101, 89, 0.7);
   padding: 40px 40px 40px 40px;
 }
 .bold-link {
