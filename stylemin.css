@@ -77,6 +77,11 @@ a:hover {
   left: 0;
   right: 0;
 }
+.col-sm-6 img {
+  width: 320px;
+  height: 250px;
+}
+
 .texture-paper::before {
   background: url(img/texture-paper.png);
   background-size: 280px 280px;
