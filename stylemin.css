@@ -78,8 +78,10 @@ a:hover {
   right: 0;
 }
 .col-sm-6 img {
-  width: 320px;
+  width: 270px;
+  height: 270px;
 }
+
 .texture-paper::before {
   background: url(img/texture-paper.png);
   background-size: 280px 280px;
