@@ -124,6 +124,10 @@ a:hover {
   text-transform: initial;
 }
 
+.contrast {
+  filter: brightness(100%);
+}
+
 /* FIN DES MODIFICATIONS */
 
 .b-parallax {
@@ -828,10 +832,7 @@ h4 {
 
 .ltc-white {
   color: #ffffff !important;
-}
-
-.ltc-white:hover {
-  color: #cccccc !important;
+  font-size: 1.2em;
 }
 
 .ltc-atomic-tangerine {
@@ -852,7 +853,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.pn");
 }
 
 .bg-banniere {
