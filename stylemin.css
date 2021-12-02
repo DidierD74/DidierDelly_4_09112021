@@ -81,12 +81,6 @@ a:hover {
   width: 270px;
   height: 270px;
 }
-.texture-paper::before {
-  opacity: 95%;
-  background: url(img/texture-paper.webp
-  background-size: 280px 280px;
-  filter: contrast(200%);
-}
 .txt-black {
   color: #000;
 }
